@@ -164,9 +164,6 @@ export default {
     CHAT_WS: process.env.CHAT_WS || 'ws://localhost:5000',
     CHANNELS: process.env.CHANNELS || ['01EPB6A2PPSW0BQVJ7WDDP568C']
   },
-  ssr: false,
+  // ssr: false,
   target: 'static', // default is 'server'
-  generate: {
-    fallback: true
-  },
 }
